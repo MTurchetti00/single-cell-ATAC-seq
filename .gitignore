@@ -1,0 +1,25 @@
+# Raw data and large files (never version genomic data)
+*.h5
+*.tsv.gz
+*.tbi
+*.rds
+*.bam
+*.bai
+
+# Outputs
+*.png
+*.pdf
+coverage_groupA/
+coverage_groupB/
+*.csv
+*.xlsx
+!supplementary_table.example.xlsx
+
+# R session files
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+
+# System files
+.DS_Store
